@@ -1,0 +1,187 @@
+/* Base styles for the desktop container */
+.desktop {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Background images: redrec and design */
+.redrec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+/* Scaled content wrapper */
+.overlap-wrapper {
+    width: 1919px;
+    height: 914px;
+    transform: scale(0.7);
+    transform-origin: top center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.overlap {
+    position: relative;
+    height: 993px;
+}
+
+/* Logo and header text */
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 35.6%;
+    transform: translateX(-50%);
+    width: 380px;
+    height: 368px;
+    object-fit: contain;
+    z-index: 3;
+}
+
+.text-wrapper {
+    position: absolute;
+    width: 770px;
+    top: 320px;
+    left: 410px;
+    font-family: "Kaisei HarunoUmi-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: normal;
+    z-index: 3;
+}
+
+/* White background behind the form */
+.white {
+    position: absolute;
+    width: 644px;
+    height: 616px;
+    top: 389px;
+    left: 374px;
+    z-index: 3;
+}
+
+/* Form group container */
+.group {
+    position: absolute;
+    width: 651px;
+    height: 604px;
+    top: 389px;
+    left: 374px;
+    z-index: 4;
+}
+
+.overlap-group {
+    position: relative;
+    width: 653px;
+    height: 616px;
+    top: -2px;
+    left: -6px;
+}
+
+/* Input fields and labels */
+.rectangle-white {
+    top: 331px;
+    left: 67px;
+    position: absolute;
+    width: 518px;
+    height: 80px;
+}
+
+.img {
+    position: absolute;
+    width: 518px;
+    height: 80px;
+    top: 173px;
+    left: 67px;
+}
+
+.div {
+    position: absolute;
+    width: 372px;
+    top: 132px;
+    left: 67px;
+    font-family: "K2D-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+}
+
+.text-wrapper-2 {
+    position: absolute;
+    width: 372px;
+    top: 48px;
+    left: 176px;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+}
+
+.text-wrapper-3 {
+    position: absolute;
+    width: 372px;
+    top: 290px;
+    left: 67px;
+    font-family: "K2D-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+}
+
+/* Login button */
+.overlap-group-wrapper {
+    position: absolute;
+    width: 588px;
+    height: 86px;
+    top: 462px;
+    left: 65px;
+}
+
+.overlap-group-2 {
+    position: relative;
+    width: 586px;
+    height: 86px;
+}
+
+.rectangle-red {
+    position: absolute;
+    width: 518px;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.text-wrapper-4 {
+    position: absolute;
+    width: 372px;
+    top: 26px;
+    left: 215px;
+    font-family: "K2D-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+}
+.dpwh {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 670px;
+    left: 15px;
+}
+.text-dpwh {
+    position: absolute;
+    top: 679px;
+    left: 70px;
+    color: grey;
+    font-family: "K2D-Bold", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+}

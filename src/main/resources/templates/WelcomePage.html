@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <link rel="stylesheet" th:href="@{/globals.css}" />
+</head>
+<body>
+<div class="desktop">
+
+    <!-- Background images placed outside the scaled wrapper -->
+    <img class="redrec" th:src="@{/welcome/redrec.svg}" />
+    <img class="dpwh"   th:src="@{/welcome/dpwh.png}" />
+    <div class="text-dpwh" > | Powered by DPWH</div>
+    <!-- Scaled content wrapper -->
+    <div class="overlap-wrapper">
+        <div class="overlap">
+            <img class="logo" th:src="@{/welcome/logo.svg}" />
+            <div class="text-wrapper">PHILIPPINE NATIONAL ROAD WATCH</div>
+            <img class="white" th:src="@{/welcome/white.svg}" />
+            <div class="group">
+                <div class="overlap-group">
+                    <div class="text-wrapper-2">Welcome to PNRW</div>
+                    <div class="div">ID Number</div>
+                    <img class="img" th:src="@{/welcome/RectangleWhite1.svg}" />
+                    <div class="text-wrapper-3">Password</div>
+                    <img class="rectangle-white" th:src="@{/welcome/RectangleWhite2.svg}" />
+                    <div class="overlap-group-wrapper">
+                        <div class="overlap-group-2">
+                            <img class="rectangle-red" th:src="@{/welcome/RectangleRed.svg}" />
+                            <div class="text-wrapper-4">LOG IN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
