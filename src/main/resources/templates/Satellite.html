@@ -6,6 +6,16 @@
     <link rel="stylesheet" th:href="@{/style2.css}" />
     <link rel="stylesheet" th:href="@{/globals.css}" />
     <title>Satellite View</title>
+
+    <!-- ✅ MapLibre CSS -->
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        /* Ensure #map fills the view box properly */
+        #map {
+            width: 1000px;
+            height: 560px;
+        }
+    </style>
 </head>
 <body>
 <div class="profile">
@@ -31,10 +41,33 @@
             </div>
             <div class="overlap-4">
                 <div class="text-wrapper-6">SATELLITE VIEW</div>
-                <img class="view" th:src="@{/satellite/box.svg}"/>
+
+                <!-- ✅ Replaced image with actual map container -->
+                <div id="map" class="view"></div>
 
             </div>
         </div>
     </div>
+</div>
+
+<!-- ✅ MapLibre JS -->
+<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+
+<!-- ✅ Initialize the map -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const map = new maplibregl.Map({
+            container: 'map', // ID of the map container
+            style: 'https://demotiles.maplibre.org/style.json',
+            center: [122.56, 13.41], // Centered on the Philippines
+            zoom: 6
+        });
+
+        new maplibregl.Marker()
+            .setLngLat([122.56, 13.41])
+            .setPopup(new maplibregl.Popup().setText("Philippine Center"))
+            .addTo(map);
+    });
+</script>
 </body>
 </html>
