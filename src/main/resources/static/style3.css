@@ -307,3 +307,33 @@ html, body {
     left: 39px;
     color: #FFBC48;
 }
+.video-container {
+    position: absolute;
+    top: -25px;        /* adjust for exact placement */
+    left: -12px;      /* adjust based on your layout */
+    width: 650px;
+    height: 250px;
+    z-index: 6;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.youtube-frame {
+    position: absolute;
+    top: 150px; /* adjust to fit inside the camera rectangle */
+    left: 200px; /* adjust to fit your layout */
+    width: 560px;
+    height: 315px;
+    z-index: 5; /* on top of svg layers */
+    border: 2px solid #313392;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
