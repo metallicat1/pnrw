@@ -319,12 +319,131 @@ html, body {
     color: #313392;
     font-size: 13px;
     line-height: normal;
+    position: absolute;
     width: 1000px;
-    height: 530px;
+    height: 700px;
+    left: 450px;
 }
 .hid {
     position: absolute;
-    top: -70px;
-    left: 200px;
-    z-index: 4;
+    top: 142px;
+    left: 0;
+    z-index: 3;
+}
+.bara {
+    position: absolute;
+    top: 142px;
+    left: 130px;
+    z-index: 3;
+}
+.ct {
+    position: absolute;
+    top: 142px;
+    left: 280px;
+    z-index: 3;
+}
+.proj {
+    position: absolute;
+    top: 142px;
+    left: 420px;
+    z-index: 3;
+}
+.date {
+    position: absolute;
+    top: 142px;
+    left: 530px;
+    z-index: 3;
+}
+.is {
+    position: absolute;
+    top: 142px;
+    left: 686px;
+    z-index: 3;
+}
+.stat {
+    position: absolute;
+    top: 142px;
+    left: 795px;
+    z-index: 3;
+}
+.id {
+    left:0;
+}
+.no {
+    position: absolute;
+    top: 180px;
+    z-index: 3;
+}
+.no2 {
+    position: absolute;
+    top: 219px;
+    z-index: 3;
+}
+.no3{
+    position: absolute;
+    top: 255px;
+    z-index: 3;
+}
+.br {
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    z-index: 3;
+}
+.br2 {
+    position: absolute;
+    top: 219px;
+    left: 130px;
+    z-index: 3;
+}
+.br3 {
+    position: absolute;
+    top: 255px;
+    left: 130px;
+    z-index: 3;
+}
+.cdo {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    z-index: 3;
+}
+.cdo2 {
+    position: absolute;
+    top: 219px;
+    left: 280px;
+    z-index: 3;
+}
+.cdo3 {
+    position: absolute;
+    top: 255px;
+    left: 280px;
+    z-index: 3;
+}
+.pn, .pn2, .pn3 {
+    left: 420px;
+}
+.pn, .mdy, .cr, .fin {
+    position: absolute;
+    top: 180px;
+    z-index: 3;
+}
+.pn2, .mdy2, .cr2, .fin2 {
+    position: absolute;
+    top: 219px;
+    z-index: 3;
+}
+.pn3, .mdy3, .cr3, .fin3 {
+    position: absolute;
+    top: 255px;
+    z-index: 3;
+}
+.mdy, .mdy2, .mdy3 {
+    left: 530px;
+}
+.cr, .cr2, .cr3 {
+    left: 686px;
+}
+.fin, .fin2, .fin3 {
+    left: 790px;
 }
