@@ -1,4 +1,3 @@
-/* Base styles for the desktop container */
 .desktop {
     background-color: #ffffff;
     width: 100vw;
@@ -19,14 +18,13 @@
 
 /* Scaled content wrapper */
 .overlap-wrapper {
-    width: 1919px;
-    height: 914px;
-    transform: scale(0.7);
-    transform-origin: top center;
+    width: 1343px;
+    height: 640px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
 }
+
 
 .overlap {
     position: relative;
@@ -35,105 +33,85 @@
 
 /* Logo and header text */
 .logo {
-    position: absolute;
-    top: 0px;
-    left: 35.6%;
-    transform: translateX(-50%);
-    width: 380px;
-    height: 368px;
+    display: block;
+    margin: 0 auto;
+    width: 14vw;       /* 20vw * 0.7 */
+    max-width: 196px;  /* 280px * 0.7 */
+    height: auto;
     object-fit: contain;
     z-index: 3;
 }
 
+
 .text-wrapper {
-    position: absolute;
-    width: 770px;
-    top: 320px;
-    left: 410px;
+    margin: 0.7rem auto 0; /* scaled margin-top */
+    text-align: center;
+    top: 100px;
+    font-size: 1.4rem;  /* 2rem * 0.7 */
+    max-width: 90%;
+    color: #fff;
     font-family: "Kaisei HarunoUmi-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 32px;
-    line-height: normal;
     z-index: 3;
 }
 
 /* White background behind the form */
 .white {
     position: absolute;
-    width: 644px;
-    height: 616px;
-    top: 389px;
-    left: 374px;
+    width: 450.8px;
+    height: 431.2px;
+    top: 244px;
+    left: 439px;
     z-index: 3;
 }
 
 /* Form group container */
 .group {
-    position: absolute;
-    width: 651px;
-    height: 604px;
-    top: 389px;
-    left: 374px;
+    width: 90%;
+    max-width: 500px;
+    margin: 2rem auto 0;
     z-index: 4;
+    position: relative;
 }
 
 .overlap-group {
     position: relative;
-    width: 653px;
-    height: 616px;
-    top: -2px;
-    left: -6px;
+    padding: 2rem;
 }
-
-/* Input fields and labels */
 .rectangle-white {
-    top: 331px;
+    top: 189px;
     left: 67px;
     position: absolute;
-    width: 518px;
-    height: 80px;
+    width: 362.6px;  /* 518 * 0.7 */
+    height: 56px;    /* 80 * 0.7 */
 }
 
 .img {
     position: absolute;
-    width: 518px;
-    height: 80px;
-    top: 173px;
+    width: 362.6px;  /* 518 * 0.7 */
+    height: 56px;    /* 80 * 0.7 */
+    top: 60px;
     left: 67px;
 }
 
 .div {
     position: absolute;
-    width: 372px;
-    top: 132px;
+    width: 260.4px;  /* 372 * 0.7 */
+    top: 30px;
     left: 67px;
     font-family: "K2D-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 24px;
+    font-size: 16.8px;  /* 24 * 0.7 */
 }
-
-.text-wrapper-2 {
-    position: absolute;
-    width: 372px;
-    top: 48px;
-    left: 176px;
-    font-family: "K2D-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 32px;
-}
-
 .text-wrapper-3 {
     position: absolute;
-    width: 372px;
-    top: 290px;
+    width: 260.4px;  /* 372 * 0.7 */
+    top: 160px;
     left: 67px;
     font-family: "K2D-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 24px;
+    font-size: 16.8px;  /* 24 * 0.7 */
 }
 
 /* Login button */
@@ -147,32 +125,32 @@
 
 .overlap-group-2 {
     position: relative;
-    width: 586px;
-    height: 86px;
+    width: 410.2px;  /* 586 * 0.7 */
+    height: 60.2px;  /* 86 * 0.7 */
 }
 
 .rectangle-red {
     position: absolute;
-    width: 518px;
-    height: 80px;
-    top: 0;
+    width: 362.6px;  /* 518 * 0.7 */
+    height: 56px;    /* 80 * 0.7 */
+    top: -150px;
     left: 0;
 }
 
 .text-wrapper-4 {
     position: absolute;
-    width: 372px;
-    top: 26px;
-    left: 215px;
+    width: 260.4px;  /* 372 * 0.7 */
+    top: -130px;
+    left: 150px;
     font-family: "K2D-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 16.8px;  /* 24 * 0.7 */
 }
 .dpwh {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 28px;      /* 40 * 0.7 */
+    height: 28px;     /* 40 * 0.7 */
     top: 670px;
     left: 15px;
 }
@@ -183,5 +161,5 @@
     color: grey;
     font-family: "K2D-Bold", Helvetica;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 11.2px; /* 16 * 0.7 */
 }

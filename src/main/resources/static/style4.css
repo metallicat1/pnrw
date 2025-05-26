@@ -1,0 +1,330 @@
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Page Container */
+.profile {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Main Wrapper */
+.div {
+    width: 1920px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Side Image / Background */
+.side {
+    position: absolute;
+    top: 0;
+    left: 0; /* ✅ ensure it starts at the left */
+    width: 335px;
+    height: 100vh;
+    margin: 0;
+    object-fit: cover; /* optional for cleaner fit */
+}
+
+/* Overlap Section */
+.overlap-group {
+    width: 355px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Logo and Title */
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 39px;
+    left: 5px;
+    background-position: center;
+}
+
+.PHILIPPINE-NATIONAL {
+    position: absolute;
+    width: 328px;
+    top: 60px;
+    left: 104px;
+    font-family: "Kaisei Harunoumi-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: normal;
+}
+
+/* Menu Group */
+.overlap {
+    width: 227px;
+    height: 300px;
+    top: 210px;
+    left: 165px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Text Styles */
+.text-wrapper,
+.text-wrapper-2,
+.text-wrapper-3 {
+    position: absolute;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.text-wrapper {
+    top: 163px;
+    left: 10px;
+}
+
+.text-wrapper-2 {
+    top: 43px;
+    left: 10px;
+}
+
+.text-wrapper-3 {
+    top: -37px;
+    left: 18px;
+}
+
+.overlap-2 {
+    width: 227px;
+    height: 100px;
+    top: -94px;
+    left: 10px;
+    position: absolute;
+}
+
+/* Icons */
+.icon, .img, .icon-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.icon {
+    top: 450px;
+    left: 72px;
+    width: 38px;
+    height: 38px;
+}
+
+.img {
+    top: 328px;
+    left: 67px;
+}
+
+.icon-2 {
+    top: 250px;
+    left: 67px;
+
+}
+
+/* Buttons */
+.overlap-3, .overlap-4 {
+    width: 210px;
+    height: 41px;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.overlap-3 {
+    top: 140px;
+    left: 700px;
+}
+
+.overlap-4 {
+    width: 780px;
+    height: 100vh;
+    top: 200px;
+    left: 700px;
+}
+/* Header / Name */
+.text-wrapper-6 {
+    position: absolute;
+    top: -140px;
+    left: -270px;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 36px;
+    color: #313392;
+}
+
+/* Profile Picture */
+.pic {
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    top: -80px;
+    left: -170px;
+}
+.menu {
+    top: 250px;
+}
+.satellite {
+    width: 170px;
+    height: 60px;
+    top: 150px;
+    left: 133px;
+    position: absolute;
+}
+
+.yellow {
+    width: 170px;
+    height: 60px;
+    top: 230px;
+    left: 133px;
+    position: absolute;
+}
+
+.tracker {
+    width: 170px;
+    height: 60px;
+    top: 350px;
+    left: 133px;
+    position: absolute;
+}
+.line {
+    width: 170px;
+    height: 60px;
+    top: 290px;
+    left: 210px;
+    position: absolute;
+}
+.affected{
+    position: absolute;
+    height: 20px;
+    top: 400px;
+    left: -230px;
+}
+.road {
+    position: absolute;
+    height: 20px;
+    top: 440px;
+    left: -230px;
+}
+.header, .list1, .list2, .list3, .list4, .list5, .af, .rocky, .projects, .cv {
+    position: absolute;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 13px;
+    line-height: normal;
+}
+.header {
+    top: -40px;
+    left: -230px;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 3;
+}
+.list1 {
+    top: 30px;
+    left: -205px;
+    z-index: 3;
+}
+.list2 {
+    top: 70px;
+    left: -205px;
+    z-index: 3;
+}
+.list3 {
+    top: 113px;
+    left: -205px;
+    z-index: 3;
+}
+.list4 {
+    top: 154px;
+    left: -205px;
+    z-index: 3;
+}
+.list5 {
+    top: 195px;
+    left: -205px;
+    z-index: 3;
+}
+.af {
+    top: 402px;
+    left: -194px;
+    z-index: 3;
+}
+.rocky {
+    top: 442px;
+    left: -194px;
+    z-index: 3;
+}
+.projects {
+    top: 85px;
+    left: 57px;
+    color: #FFBC48;
+}
+.cv {
+    top: 115px;
+    left: 39px;
+    color: #ffffff;
+}
+.con {
+    position: absolute;
+    width: 1000px;
+    height: 530px;
+    top: -70px;
+    left: -317px;
+    z-index: 2;
+}
+.arrow {
+    position: absolute;
+    top: 478px;
+    left: 612px;
+}
+.nx, .ed {
+    position: absolute;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 13px;
+    line-height: normal;
+}
+.nx {
+    position: absolute;
+    top: 486px;
+    left: 583px;
+}
+.ed {
+    position: absolute;
+    top: -100px;
+    left: 603px;
+}
+.data {
+    position: absolute;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 13px;
+    line-height: normal;
+    width: 1000px;
+    height: 530px;
+}
+.hid {
+    position: absolute;
+    top: -70px;
+    left: 200px;
+    z-index: 4;
+}

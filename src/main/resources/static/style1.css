@@ -1,0 +1,290 @@
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Page Container */
+.profile {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Main Wrapper */
+.div {
+    width: 1920px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Side Image / Background */
+.side {
+    position: absolute;
+    top: 0;
+    left: 0; /* ✅ ensure it starts at the left */
+    width: 335px;
+    height: 100vh;
+    margin: 0;
+    object-fit: cover; /* optional for cleaner fit */
+}
+
+/* Overlap Section */
+.overlap-group {
+    width: 355px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Logo and Title */
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 39px;
+    left: 5px;
+    background-position: center;
+}
+
+.PHILIPPINE-NATIONAL {
+    position: absolute;
+    width: 328px;
+    top: 60px;
+    left: 104px;
+    font-family: "Kaisei Harunoumi-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: normal;
+}
+
+/* Menu Group */
+.overlap {
+    width: 227px;
+    height: 300px;
+    top: 210px;
+    left: 165px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Text Styles */
+.text-wrapper,
+.text-wrapper-2,
+.text-wrapper-3 {
+    position: absolute;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.text-wrapper {
+    top: 123px;
+    left: 10px;
+}
+
+.text-wrapper-2 {
+    top: 43px;
+    left: 10px;
+}
+
+.text-wrapper-3 {
+    top: -37px;
+    left: 18px;
+}
+
+.overlap-2 {
+    width: 227px;
+    height: 100px;
+    top: -94px;
+    left: 10px;
+    position: absolute;
+}
+
+/* Icons */
+.icon, .img, .icon-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.icon {
+    top: 410px;
+    left: 72px;
+    width: 38px;
+    height: 38px;
+}
+
+.img {
+    top: 328px;
+    left: 67px;
+}
+
+.icon-2 {
+    top: 250px;
+    left: 67px;
+}
+
+/* Buttons */
+.overlap-3, .overlap-4 {
+    width: 210px;
+    height: 41px;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.overlap-3 {
+    top: 140px;
+    left: 700px;
+}
+
+.overlap-4 {
+    top: 200px;
+    left: 700px;
+}
+
+.text-wrapper-4 {
+    position: absolute;
+    top: 87px;
+    left: 45px;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.text-wrapper-5 {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #313392;
+    font-size: 15px;
+    z-index: 2;
+}
+
+/* Header / Name */
+.text-wrapper-6 {
+    position: absolute;
+    top: -140px;
+    left: -270px;
+    font-family: "K2D-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 36px;
+    color: #313392;
+}
+
+/* Profile Picture */
+.pic {
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    top: -80px;
+    left: -170px;
+}
+
+/* Info Text */
+.text-wrapper-7, .text-wrapper-8, .text-wrapper-9,
+.text-wrapper-10, .text-wrapper-11, .text-wrapper-12 {
+    position: absolute;
+    font-family: "K2D-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text-wrapper-7 {
+    width: 121px;
+    top: 89px;
+    left: -175px;
+}
+
+.text-wrapper-8 {
+    width: 121px;
+    top: 205px;
+    left: -175px;
+}
+
+.text-wrapper-9 {
+    width: 193px;
+    top: 205px;
+    left: 200px;
+}
+
+.text-wrapper-10 {
+    width: 176px;
+    top: 332px;
+    left: -175px;
+}
+.text-wrapper-11 {
+    width: 176px;
+    top: 438px;
+    left: -175px;
+    color: #000000;
+}
+
+.text-wrapper-12 {
+    width: 121px;
+    top: 89px;
+    left: 200px;
+    color: #000000;
+}
+.infos {
+        position: absolute;
+        width: 700px;
+        height: 400px;
+        top: 110px;
+        left: -180px;
+        z-index: 1;
+    }
+.edit {
+    width: 170px;
+    height: 60px;
+    top: 80px;
+    left: -150px;
+}
+.change {
+    width: 170px;
+    height: 60px;
+    top: 70px;
+    left: -150px;
+}
+.menu {
+    top: 250px;
+}
+.yellow {
+    width: 170px;
+    height: 60px;
+    top: 150px;
+    left: 133px;
+    position: absolute;
+}
+
+.tracker {
+    width: 170px;
+    height: 60px;
+    top: 230px;
+    left: 133px;
+    position: absolute;
+}
+
+.satellite {
+    width: 170px;
+    height: 60px;
+    top: 310px;
+    left: 133px;
+    position: absolute;
+}
